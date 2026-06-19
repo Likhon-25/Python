@@ -57,6 +57,36 @@ while i < 6:
 
 
 # ----------------------------------------------------
+# lIST & Tauple in python
+
+# .............List ---  ""mutable""..........................
+
+# fruits = ["Apple", "Mango", "Bannana"]
+# print(fruits)
+# print(fruits[1])
+
+# fruits[1] = "Guava"
+# print(fruits)
+# print(fruits[1])
+
+
+#.................. Tauple --- ""immutable"""........................
+
+# fruits = ("Apple", "Mango", "Bannana")
+# print(fruits)
+# print(fruits[1])
+
+# fruits[1] = "Guava"
+# print(fruits)
+# print(fruits[1])
+
+
+fruits = ["apple", "Mnago", "charry", "guava", "Watermilon"]
+print(fruits[2:5])
+
+print(fruits + ["Dragon", "Lichi"])
+print(fruits * 3)
+print(fruits)
 
 
 
