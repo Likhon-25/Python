@@ -113,9 +113,26 @@ fruits.insert(1, "orange")
 
 fruits = ['apple', 'banana', 'cherry', 'orange']
 fruits.clear()
-print(fruits)
+# print(fruits)
 
 # -----------------------------------
 cars = [ 'Volvo','Ford', 'BMW']
 cars.sort()
-print(cars)
+# print(cars)
+
+# ------------------------------
+fruits = ['apple', 'banana', 'cherry', 'orange']
+showIndex = fruits.index('cherry')
+# print(showIndex)
+
+# ................... 2nd List (Matrix) ...........................
+my_matrix = [
+    [1,3,6,7],
+    [-2,4,5,-7],
+    [9.6,3,0],
+    [44,-9, -4, 3],
+    [1,3,4,2,6]
+]
+
+print(my_matrix[3][0])
+
