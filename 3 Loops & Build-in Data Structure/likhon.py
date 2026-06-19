@@ -134,5 +134,38 @@ my_matrix = [
     [1,3,4,2,6]
 ]
 
-print(my_matrix[3][0])
+# print(my_matrix[3][0])
+
+
+
+# ............................... Dictionary in Python ..................... 
+students = {
+    "name" : "Likhon Mondol",
+    "Institute" : "Rangpur",
+    "Department" : "Computer Scince & Technology",
+    "Skill" : "Full Stack Engineer",
+    "Age" : "20",
+    "is_Valid" : True
+}
+
+# print(type(students))
+# print(students["name"])
+# print(type(students["Age"]))
+# print(type(students["is_Valid"]))
+
+#  ........ Operations in Dictionary ..................... 
+dics_items = students.items()
+# print(dics_items)
+# print(students.values())
+# print(students.keys())
+# print(type(list(dics_items)[0]))
+
+# --------------
+
+students.update({
+    "Institute" : "RIIT",
+    "Hobby" : "Jannahat"
+})
+
+print(students)
 
