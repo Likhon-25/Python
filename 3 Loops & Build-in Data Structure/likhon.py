@@ -167,5 +167,17 @@ students.update({
     "Hobby" : "Jannahat"
 })
 
-print(students)
+# print(students)
 
+
+#  ..................  For Loop .................... 
+fruits = ["Apple", "Orange", "Pinaple", "Jackfruits", "Guava"]
+
+# for fruit in fruits:
+#     print(fruit)
+
+# -------------  Range in For Loop ------------------
+# for i in range(3,13,2):
+# for i in range(3,10):
+for i in range(3):
+    print(i)
