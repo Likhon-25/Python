@@ -80,13 +80,42 @@ while i < 6:
 # print(fruits)
 # print(fruits[1])
 
+# ------------------------------------------
 
-fruits = ["apple", "Mnago", "charry", "guava", "Watermilon"]
-print(fruits[2:5])
+# fruits = ["apple", "Mnago", "charry", "guava", "Watermilon"]
+# print(fruits[2:5])
 
-print(fruits + ["Dragon", "Lichi"])
-print(fruits * 3)
+# print(fruits + ["Dragon", "Lichi"])
+# print(fruits * 3)
+# print(fruits)
+
+
+
+#  ...........  List Methods ...................
+
+fruits = [ "Mango", "Banana"]
+fruits.append("Cherry")
+# print(fruits)
+
+#  ---------------------------
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1)
+# print(fruits)
+
+# ------------------------------
+
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+# print(fruits)
+
+# ---------------------------
+
+fruits = ['apple', 'banana', 'cherry', 'orange']
+fruits.clear()
 print(fruits)
 
-
-
+# -----------------------------------
+cars = [ 'Volvo','Ford', 'BMW']
+cars.sort()
+print(cars)
