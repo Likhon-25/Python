@@ -181,3 +181,10 @@ fruits = ["Apple", "Orange", "Pinaple", "Jackfruits", "Guava"]
 # for i in range(3,10):
 for i in range(3):
     print(i)
+
+
+
+#  ............  Problem no 1 .................  
+# Make a program that receives  an integer  "n"  claculas the sum of 1 to n , then shows the sum
+
+
